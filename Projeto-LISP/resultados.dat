@@ -1,0 +1,329 @@
+Problema: (((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 3
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: 0 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 16777215/1048576 |
+| Nos-Gerados: 31 | Nos-Expandidos: 2 | Penetrancia: 2/31 |
+| Pai: ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 1 1 (((# # # #) (# # # #)) 0 2 NIL)) 
+
+| Linhas: (NIL NIL NIL) | Colunas: (NIL T T) | G: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | H: NIL |
+| Pai: NIL 
+
+| Linhas: (NIL NIL T NIL) | Colunas: (T NIL T T) | G: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | H: NIL |
+| Pai: NIL 
+
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 3 | H: 0 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL T T T) (T T T T) (NIL T T T))) 2 1 (((# # # # #) (# # # # #)) 1 2 ((# #) 0 3 NIL))) 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 7
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 3 | H: 0 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 37748733/2097152 |
+| Nos-Gerados: 84 | Nos-Expandidos: 5 | Penetrancia: 1/28 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T T T T) (NIL T T T))) 2 1 (((# # # # #) (# # # # #)) 1 2 ((# #) 0 3 NIL))) 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 7
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 3 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 37748733/2097152 |
+| Nos-Gerados: 84 | Nos-Expandidos: 5 | Penetrancia: 1/28 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T T T T) (NIL T T T))) 2 0 (((# # # # #) (# # # # #)) 1 1 ((# #) 0 2 NIL))) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 10
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T)) | G: 8 | H: 0 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 4718591/262144 |
+| Nos-Gerados: 3358 | Nos-Expandidos: 225 | Penetrancia: 4/1679 |
+| Pai: ((((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T T T T) (T T T T))) 7 1 (((# # # # #) (# # # # #)) 6 2 ((# #) 5 3 (# 4 4 #)))) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: 0 |
+| Pai: ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 1 1 ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 0 2 NIL)) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 3 | H: 0 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL T T T) (T T T T) (NIL T T T))) 2 1 ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T T T T) (NIL T T T))) 1 2 ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T))) 0 3 NIL))) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 10
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T)) | G: 8 | H: -1 |
+| Tempo de Execucao (segundos): 1 | Fator-Ramificacao: 4718591/262144 |
+| Nos-Gerados: 3358 | Nos-Expandidos: 225 | Penetrancia: 4/1679 |
+| Pai: ((((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T T T T) (T T T T))) 7 0 (((# # # # #) (# # # # #)) 6 1 ((# #) 5 2 (# 4 3 #)))) 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 10
+Heuristica Escolhida: HEURISTICA-NOVA2
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (T T T T) (T T T T) (T T T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T T T T) (NIL T T T)) | G: 8 | H: 0 |
+| Tempo de Execucao (segundos): 1 | Fator-Ramificacao: 4718591/262144 |
+| Nos-Gerados: 8677 | Nos-Expandidos: 665 | Penetrancia: 8/8677 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (T T T T) (T T T T) (T T T T)) ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T NIL T T) (NIL T T T))) 7 1 (((# # # # #) (# # # # #)) 6 2 ((# #) 5 3 (# 4 4 #)))) 
+
+Problema: (((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 3
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: 0 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 14680065/1048576 |
+| Nos-Gerados: 552 | Nos-Expandidos: 39 | Penetrancia: 1/276 |
+| Pai: ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 1 0 (((# # # #) (# # # #)) 0 1 NIL)) 
+
+Problema: (((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 7
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 1 | H: 0 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 15 |
+| Nos-Gerados: 15 | Nos-Expandidos: 1 | Penetrancia: 1/15 |
+| Pai: ((((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T NIL T T) (NIL T T T))) 0 0 NIL) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 3 | H: 0 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL T T T) (T T T T) (NIL T T T))) 2 1 (((# # # # #) (# # # # #)) 1 2 ((# #) 0 3 NIL))) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | Colunas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | G: 4 | H: 0 |
+| Pai: ((((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 3 1 (((# # # #) (# # # #)) 2 1 ((# #) 1 2 (# 0 3 NIL)))) 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | Colunas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | G: 4 | H: 0 |
+| Pai: ((((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 3 1 ((((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 2 1 ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL T T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 1 2 ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 0 3 NIL)))) 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | Colunas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | G: 4 | H: 0 |
+| Pai: ((((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 3 1 (((# # # #) (# # # #)) 2 1 ((# #) 1 2 (# 0 3 NIL)))) 
+
+| Linhas: ((NIL NIL T NIL) (T NIL T T) (T NIL T T) (T T T T) (T T T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 8 | H: 0 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (T T T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T))) 7 1 ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (T T T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL T T T) (T T T T) (NIL T T T))) 6 2 ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (T T T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T T T T) (NIL T T T))) 5 3 ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (NIL T T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T T T T) (NIL T T T))) 4 4 ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (NIL T T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T))) 3 4 ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL T T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T))) 2 5 ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T))) 1 6 ((((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T))) 0 6 NIL)))))))) 
+
+| Linhas: ((NIL NIL T T) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T)) | G: 3 | H: 0 |
+| Pai: ((((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T))) 2 1 (((# # # # #) (# # # # #)) 1 1 ((# #) 0 3 NIL))) 
+
+| Linhas: ((NIL NIL T NIL) (T T T T) (NIL T T T) (NIL T T T) (NIL T T T)) | Colunas: ((NIL NIL T T) (NIL T T T) (T T T T) (T T T T) (NIL T T T)) | G: 5 | H: 0 |
+| Pai: ((((NIL NIL T NIL) (T T T T) (NIL T T T) (NIL T T T) (NIL NIL T T)) ((NIL NIL T T) (NIL T T T) (T T T T) (T T T T) (NIL T T T))) 4 1 (((# # # # #) (# # # # #)) 3 2 ((# #) 2 3 (# 1 3 #)))) 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | Colunas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) | G: 4 | H: 0 |
+| Pai: ((((NIL NIL NIL) (NIL T T) (NIL T T) (NIL T T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 3 1 (((# # # #) (# # # #)) 2 1 ((# #) 1 2 (# 0 3 NIL)))) 
+
+| Linhas: ((NIL NIL NIL T T NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) | Colunas: ((NIL T T T T T) (NIL T T NIL T T) (NIL T T T T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T T NIL) (NIL T T T T T)) | G: 13 | H: -24 |
+| Pai: ((((NIL NIL NIL T T NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL T T T T T) (NIL T T NIL T T) (NIL T T T T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 12 -24 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL T T T T T) (NIL T T NIL T T) (NIL T T T T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 11 -23 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL T T T T T) (NIL T T NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 10 -22 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL T NIL T T T) (NIL T T NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 9 -21 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL T NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 8 -20 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL T T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 7 -19 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T T) (NIL NIL NIL T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 6 -18 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (T T T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 5 -16 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (NIL T T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 4 -14 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (NIL NIL T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL T T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 3 -12 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (NIL NIL T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL NIL T T NIL NIL) (T NIL T NIL T T) (NIL T T T NIL NIL) (NIL T T T T T))) 2 -10 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (NIL NIL T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL NIL T T NIL NIL) (T NIL T NIL T NIL) (NIL T T T NIL NIL) (NIL T T T T T))) 1 -8 ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (NIL NIL T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL NIL T T NIL NIL) (T NIL T NIL T NIL) (NIL NIL T T NIL NIL) (NIL T T T T T))) 0 -6 NIL))))))))))))) 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 10
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T)) | G: 8 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 4718591/262144 |
+| Nos-Gerados: 3358 | Nos-Expandidos: 225 | Penetrancia: 4/1679 |
+| Pai: ((((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T NIL T T) (T T T T) (T T T T))) 7 0 (((# # # # #) (# # # # #)) 6 1 ((# #) 5 2 (# 4 3 #)))) 
+
+| Linhas: ((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T)) | G: 8 | H: -1 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T))) 7 0 (((# # # # #) (# # # # #)) 6 0 ((# #) 5 1 (# 4 2 #)))) 
+
+Problema: (((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 8
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL T T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (T NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 3 | H: 0 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 31457277/2097152 |
+| Nos-Gerados: 1289 | Nos-Expandidos: 100 | Penetrancia: 3/1289 |
+| Pai: ((((NIL T T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T))) 2 0 (((# # # # #) (# # # # #)) 1 0 ((# #) 0 1 NIL))) 
+
+Problema: (((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: A*
+Numero de Caixas Fechadas (Objetivo): 9
+Heuristica Escolhida: HEURISTICA-NOVA
+| Linhas: ((NIL NIL T NIL) (T T T T) (T NIL T T) (T NIL T T) (T NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 4 | H: 0 |
+| Tempo de Execucao (segundos): 1 | Fator-Ramificacao: 7864319/524288 |
+| Nos-Gerados: 5368 | Nos-Expandidos: 446 | Penetrancia: 1/1342 |
+| Pai: ((((NIL NIL T NIL) (T T T T) (T NIL T T) (T NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T))) 3 0 (((# # # # #) (# # # # #)) 2 1 ((# #) 1 1 (# 0 2 NIL)))) 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: -1 |
+| Pai: ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 1 0 (((# # # #) (# # # #)) 0 1 NIL)) 
+
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: -1 |
+| Pai: ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 1 0 ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 0 1 NIL)) 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: 19995 | H: 4 |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: 19999 | H: 0 |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: 19999 | H: 0 |
+| Pai: NIL 
+
+| Linhas: NIL | Colunas: NIL | G: 1 | H: 0 |
+| Pai: NIL 
+
+| Linhas: (((T) (T)) ((T) (T))) | Colunas: 4 | G: NIL | H: NIL |
+| Pai: NIL 
+
+| Linhas: (((T) (T)) ((T) (T))) | Colunas: 4 | G: 3 | H: 0 |
+| Pai: NIL 
+
+| Linhas: (((T) (T)) ((T) (T))) | Colunas: 4 | G: 3 | H: 0 |
+| Pai: NIL 
+
+| Linhas: ((T) (T)) | Colunas: ((T) (T)) | G: 4 | H: -1 |
+| Pai: ((((NIL) (T)) ((T) (T))) 3 0 ((((NIL) (T)) ((NIL) (T))) 2 0 ((((NIL) (NIL)) ((NIL) (T))) 1 0 ((((NIL) (NIL)) ((NIL) (NIL))) 0 0 NIL)))) 
+
+Problema: (((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T)))
+Algoritmo Escolhido: BFS
+Numero de Caixas Fechadas (Objetivo): 3
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: 9999 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 14680065/1048576 |
+| Nos-Gerados: 1138 | Nos-Expandidos: 80 | Penetrancia: 1/569 |
+| Pai: ((((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 1 9999 ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T))) 0 9999 NIL)) 
+
+Problema: (((NIL) (NIL)) ((NIL) (NIL)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 1
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((T) (T)) | Colunas: ((T) (T)) | G: 4 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 1/524288 |
+| Nos-Gerados: 50 | Nos-Expandidos: 21 | Penetrancia: 2/25 |
+| Pai: ((((NIL) (T)) ((T) (T))) 3 0 ((((NIL) (T)) ((NIL) (T))) 2 0 ((((NIL) (NIL)) ((NIL) (T))) 1 0 ((((NIL) (NIL)) ((NIL) (NIL))) 0 0 NIL)))) 
+
+Problema: (((NIL) (NIL)) ((NIL) (NIL)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 1
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((T) (T)) | Colunas: ((T) (T)) | G: 4 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 8388605/2097152 |
+| Nos-Gerados: 50 | Nos-Expandidos: 21 | Penetrancia: 2/25 |
+| Pai: ((((NIL) (T)) ((T) (T))) 3 0 ((((NIL) (T)) ((NIL) (T))) 2 0 ((((NIL) (NIL)) ((NIL) (T))) 1 0 ((((NIL) (NIL)) ((NIL) (NIL))) 0 0 NIL)))) 
+
+Problema: (((NIL NIL) (NIL NIL) (NIL NIL)) ((NIL NIL) (NIL NIL) (NIL NIL)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 2
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL T) (NIL T) (NIL T)) | Colunas: ((NIL NIL) (T T) (T T)) | G: 7 | H: -1 |
+| Tempo de Execucao (segundos): 1 | Fator-Ramificacao: 12582909/1048576 |
+| Nos-Gerados: 176162 | Nos-Expandidos: 21689 | Penetrancia: 1/25166 |
+| Pai: ((((NIL NIL) (NIL T) (NIL T)) ((NIL NIL) (T T) (T T))) 6 0 ((((NIL NIL) (NIL T) (NIL T)) ((NIL NIL) (NIL T) (T T))) 5 0 ((((NIL NIL) (NIL T) (NIL T)) ((NIL NIL) (NIL NIL) (T T))) 4 1 ((((NIL NIL) (NIL NIL) (NIL T)) ((NIL NIL) (NIL NIL) (T T))) 3 1 ((((NIL NIL) (NIL NIL) (NIL T)) ((NIL NIL) (NIL NIL) (NIL T))) 2 1 ((((NIL NIL) (NIL NIL) (NIL NIL)) ((NIL NIL) (NIL NIL) (NIL T))) 1 1 ((((NIL NIL) (NIL NIL) (NIL NIL)) ((NIL NIL) (NIL NIL) (NIL NIL))) 0 1 NIL))))))) 
+
+Problema: (((NIL NIL) (NIL NIL) (NIL NIL)) ((NIL NIL) (NIL NIL) (NIL NIL)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 3
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL T) (T T) (T T)) | Colunas: ((NIL T) (T T) (T T)) | G: 10 | H: -1 |
+| Tempo de Execucao (segundos): 44 | Fator-Ramificacao: 25165815/2097152 |
+| Nos-Gerados: 20859491 | Nos-Expandidos: 3780044 | Penetrancia: 10/20859491 |
+| Pai: ((((NIL NIL) (T T) (T T)) ((NIL T) (T T) (T T))) 9 0 ((((NIL NIL) (T T) (T T)) ((NIL T) (NIL T) (T T))) 8 0 ((((NIL NIL) (T T) (T T)) ((NIL NIL) (NIL T) (T T))) 7 1 ((((NIL NIL) (T NIL) (T T)) ((NIL NIL) (NIL T) (T T))) 6 2 ((((NIL NIL) (NIL NIL) (T T)) ((NIL NIL) (NIL T) (T T))) 5 2 ((((NIL NIL) (NIL NIL) (T T)) ((NIL NIL) (NIL NIL) (T T))) 4 2 ((((NIL NIL) (NIL NIL) (NIL T)) ((NIL NIL) (NIL NIL) (T T))) 3 2 ((((NIL NIL) (NIL NIL) (NIL T)) ((NIL NIL) (NIL NIL) (NIL T))) 2 2 ((((NIL NIL) (NIL NIL) (NIL NIL)) ((NIL NIL) (NIL NIL) (NIL T))) 1 2 ((((NIL NIL) (NIL NIL) (NIL NIL)) ((NIL NIL) (NIL NIL) (NIL NIL))) 0 2 NIL)))))))))) 
+
+Problema: (((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL NIL T) (NIL T T)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 3
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL NIL) (NIL T T) (NIL T T) (NIL NIL T)) | Colunas: ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T)) | G: 2 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 16.00000 |
+| Nos-Gerados: 31 | Nos-Expandidos: 2 | Penetrancia: 2/31 |
+| Pai: ((((NIL NIL NIL) (NIL NIL T) (NIL T T) (NIL NIL T)) ((NIL NIL NIL) (NIL T NIL) (NIL T T) (NIL T T))) 1 0 (((# # # #) (# # # #)) 0 1 NIL)) 
+
+Problema: (((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 7
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (NIL T T T)) | G: 1 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 15.00000 |
+| Nos-Gerados: 15 | Nos-Expandidos: 1 | Penetrancia: 1/15 |
+| Pai: ((((NIL NIL T NIL) (T T T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T NIL T T) (NIL T T T))) 0 1 NIL) 
+
+Problema: (((NIL NIL T NIL) (T NIL T T) (NIL NIL T T) (NIL NIL T T) (NIL NIL T T)) ((NIL NIL T T) (NIL NIL T T) (NIL NIL T T) (T NIL T T) (NIL T T T)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 10
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL T T) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) | Colunas: ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T)) | G: 8 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 18.00000 |
+| Nos-Gerados: 26047 | Nos-Expandidos: 1947 | Penetrancia: 8/26047 |
+| Pai: ((((NIL NIL T NIL) (T NIL T T) (T NIL T T) (T NIL T T) (T NIL T T)) ((NIL NIL T T) (NIL NIL T T) (T T T T) (T T T T) (T T T T))) 7 0 (((# # # # #) (# # # # #)) 6 0 ((# #) 5 1 (# 4 2 #)))) 
+
+Problema: (((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T NIL) (NIL NIL NIL T T NIL) (NIL NIL NIL T T NIL) (NIL NIL T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T NIL T T) (NIL NIL T T NIL NIL) (T NIL T NIL T NIL) (NIL NIL T T NIL NIL) (NIL T T T T T)))
+Algoritmo Escolhido: RBFS
+Numero de Caixas Fechadas (Objetivo): 20
+Heuristica Escolhida: HEURISTICA
+| Linhas: ((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T T) (NIL NIL T T T T) (NIL NIL T T T T) (NIL NIL T T T T) (NIL NIL T T T T)) | Colunas: ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T T T T) (T T T T T T) (T T T T T T) (NIL T T T T T) (NIL T T T T T)) | G: 16 | H: -1 |
+| Tempo de Execucao (segundos): 0 | Fator-Ramificacao: 40.99999 |
+| Nos-Gerados: 536 | Nos-Expandidos: 16 | Penetrancia: 2/67 |
+| Pai: ((((NIL NIL NIL T NIL NIL) (NIL NIL NIL T T T) (T T T T T T) (NIL NIL T T T T) (NIL NIL T T T T) (NIL NIL T T T T) (NIL NIL T T T T)) ((NIL NIL NIL T T T) (NIL T NIL NIL T T) (NIL T T T T T) (T NIL T T T T) (T T T T T T) (NIL T T T T T) (NIL T T T T T))) 15 0 (((# # # # # # #) (# # # # # # #)) 14 1 ((# #) 13 2 (# 12 3 #)))) 
+
